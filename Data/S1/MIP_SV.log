@@ -1,0 +1,54 @@
+
+<<< setup
+
+Tried aggregator 1 time.
+MIP Presolve eliminated 1420 rows and 20 columns.
+MIP Presolve modified 7849 coefficients.
+Reduced MIP has 43200 rows, 42580 columns, and 166940 nonzeros.
+Reduced MIP has 580 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,28 sec. (61,27 ticks)
+Probing changed sense of 580 constraints.
+Probing time = 0,85 sec. (14,17 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 580 rows and 551 columns.
+Reduced MIP has 42620 rows, 42029 columns, and 165780 nonzeros.
+Reduced MIP has 29 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,36 sec. (73,35 ticks)
+Probing time = 0,12 sec. (2,44 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 6,57 sec. (1261,47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          590,9274        2,6635            99,55%
+      0     0      368,4013    20      590,9274      368,4013       44   37,66%
+      0     0      446,5889     8      590,9274    Cuts: 1703     8862   24,43%
+*     0+    0                          473,8855      446,5889             5,76%
+      0     0      451,3678     1      473,8855     Cuts: 622     9611    4,75%
+*     0+    0                          451,3700      451,3678             0,00%
+
+Implied bound cuts applied:  516
+Flow cuts applied:  17
+Mixed integer rounding cuts applied:  525
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =   60,90 sec. (17990,57 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =   60,90 sec. (17990,57 ticks)
+-- Objective = 451.37
+-- Solving time ~= 61677.6ms
+main returns 0
+
+<<< main
+
+
+<<< done
+

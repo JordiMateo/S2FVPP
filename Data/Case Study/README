@@ -1,0 +1,13 @@
+
+Paper: A Production Planning model considering uncertain demand using two stage stochastic programming in a fresh vegetable supply chain context
+
+
+Description: 
+
+In this section, a real study  for \textit{S2FVPP} instance is studied. A local chain of grocery shops is dealing with the problem of supplying tomatoes, grown by locally producers, at the minimum cost for the next year. Thus, the aim is to determine which tomato farms have to be contracted this season to satisfy future demand with local products.
+
+Moreover, the local chain of grocery shops is made up of eight shops \{C1-C8\} and has to select tomato farms \{A-J\} to fulfil the future demand. These shops and tomato farms are distributed throughout Catalonia,  see Figure \ref{RealExample}. This map represent the location of each shop and farm, approximately.
+
+The main characteristics of the tomato farms used in this study are summarised in Table  \ref{FarmsInfo}.  \textit{Farm} represents the name of the farm, \textit{Location} indicates the place and  \textit{Hectares} the land surface. Quality field ranges from 1 to 10, where 1 represent the lowest quality. This index is computed using both the knowledge of historical data for past seasons and customers feedback information. Note that in Table \ref{FarmsInfo}, farms \{A,D\} has not quality index ($-$), representing that neither historical data nor customers feedback information are recorded for these farms. Besides, each $cgv$ coefficient is computed taking into account the quality index and the size of the yields.
+
+The main features of the grocery shops used in this study are summarised in Table  \ref{tc}.  \textit{Grocery Shop} represents the name of the grocery shop and \textit{Location} indicates the place. The \textit{Serving Cost}; $csv$, is computed using information related with the transport and delivery costs estimated for each pair of tomato farm and grocery shop. Table \ref{tc} describes the cost of service under the fair scenario.

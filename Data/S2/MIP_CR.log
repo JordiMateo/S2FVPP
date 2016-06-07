@@ -1,0 +1,56 @@
+
+<<< setup
+
+Tried aggregator 1 time.
+MIP Presolve eliminated 3500 rows and 1 columns.
+MIP Presolve modified 24911 coefficients.
+Reduced MIP has 106550 rows, 105029 columns, and 414450 nonzeros.
+Reduced MIP has 29 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,74 sec. (152,55 ticks)
+Probing time = 0,76 sec. (6,09 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 106550 rows, 105029 columns, and 414450 nonzeros.
+Reduced MIP has 29 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0,98 sec. (181,41 ticks)
+Probing time = 0,27 sec. (6,09 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 32,11 sec. (4438,68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          614,1669       23,7265            96,14%
+      0     0      353,2653    18      614,1669      353,2653       91   42,48%
+      0     0      395,8157     6      614,1669    Cuts: 3651    18619   35,55%
+*     0+    0                          428,9707      395,8157             7,73%
+*     0+    0                          397,9510      395,8157             0,54%
+*     0     0      integral     0      397,9510                  19934    0,00%
+Elapsed time = 376,06 sec. (84385,85 ticks, tree = 0,00 MB, solutions = 3)
+
+Implied bound cuts applied:  1084
+Flow cuts applied:  105
+Mixed integer rounding cuts applied:  1185
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =  376,09 sec. (84390,87 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) =  376,09 sec. (84390,87 ticks)
+-- Objective = 397.951
+-- Solving time ~= 378355ms
+main returns 0
+
+<<< main
+
+
+<<< done
+
+
+<<< setup
+

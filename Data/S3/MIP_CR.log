@@ -1,0 +1,54 @@
+
+<<< setup
+
+Tried aggregator 1 time.
+MIP Presolve eliminated 7000 rows and 1 columns.
+MIP Presolve modified 42170 coefficients.
+Reduced MIP has 213100 rows, 210029 columns, and 828900 nonzeros.
+Reduced MIP has 29 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1,77 sec. (340,47 ticks)
+Probing time = 1,27 sec. (12,18 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 213100 rows, 210029 columns, and 828900 nonzeros.
+Reduced MIP has 29 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 2,36 sec. (398,65 ticks)
+Probing time = 0,58 sec. (12,18 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 71,09 sec. (9342,14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          642,4933       21,3173            96,68%
+      0     0      407,4337    17      642,4933      407,4337       99   36,59%
+      0     0      444,8642    10      642,4933    Cuts: 6425    40144   30,76%
+*     0+    0                          511,1539      444,8642            12,97%
+*     0+    0                          454,8397      444,8642             2,19%
+      0     0      453,3616     5      454,8397    Cuts: 4266    56952    0,32%
+      0     0      454,6306     5      454,8397    Cuts: 1200    63612    0,05%
+*     0+    0                          454,6673      454,6306             0,01%
+
+Implied bound cuts applied:  2570
+Flow cuts applied:  197
+Mixed integer rounding cuts applied:  1617
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             = 3050,55 sec. (488113,03 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0,00 sec. (0,00 ticks)
+  Sync time (average)   =    0,00 sec.
+  Wait time (average)   =    0,00 sec.
+                          ------------
+Total (root+branch&cut) = 3050,55 sec. (488113,03 ticks)
+-- Objective = 454.667
+-- Solving time ~= 3059549.920898438ms
+main returns 0
+
+<<< main
+
+
+<<< done
+
