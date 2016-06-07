@@ -1,2 +1,6 @@
 # S2FVPP
 A Production Planning model considering uncertain demand using two stage stochastic programming in a fresh vegetable supply chain context
+
+Production planning models are achieving more interest for being used in the primary sector of the economy. The proposed model relies on the formulation of a location model representing a set of farms susceptible of being selected by a grocery shop brand to supply local fresh products under seasonal contracts. The main aim is to minimize overall procurement costs and meet future demand. This kind of problem is rather common  in fresh vegetable supply chains where producers are located in proximity either to processing plants or retailers. The proposed two-stage stochastic model determines which suppliers should be selected for production contracts to ensure high quality products and minimal time from farm-to-table. Moreover, Lagrangian relaxation and parallel computing algorithms are proposed to solve these instances efficiently in a reasonable computational time. The results obtained show computational gains from  our algorithmic proposals in front of the usage of plain CPLEX solver.Furthermore, the results ensure the competitive advantages of using the proposed model by purchase managers in the fresh vegetables industry.
+
+
